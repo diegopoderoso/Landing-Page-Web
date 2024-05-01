@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="img/contactoicon.png" type="image/png">
+    <title>Contacto</title>
+</head>
+<body class= "Contacto" style="background-image: url('IMG/contacto.jpg'); background-size: cover; background-repeat: no-repeat;">
+    <header>
+            <h1 class="hablemos">¡Hablemos!<br></h1>
+    </header>
+    <section>
+        <div class="form-group">
+            <form action="mailto:diegopo95@gmail.com" method="post" enctype="text/plain">
+            <div class="datos">
+                <span>Nombre*:</span>
+                <input type="text" id="nombre" name="nombre" required><br>
+                <span>Apellidos*:</span>
+                <input type="text" id="apellidos" name="apellidos" required><br>
+                <span>Correo electrónico*:</span>
+                <input type="text" id="mail" name="mail" required><br>
+            </div>
+            <div class="cita">
+                <span>Pedir cita:</span>
+                <input type="date" id="Cita" name="Cita"><br>
+            </div>
+            <div class="consulta">
+                <span>Motivo de consulta:</span>
+                <select name="Motivo">
+                    <option value="web">Quiero una página web</option>
+                    <option value="APP">Quiero una APP</option>
+                    <option value="Error">Existen errores en mi web</option>
+                    <option value="Juntos">¡Trabajemos juntos!</option>
+                    <option value="Otros">Otros</option>
+                </select><br>
+            </div>
+            <div class="comentarios">
+                <span>Comentarios:</span>
+                <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

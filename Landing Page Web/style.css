@@ -1,0 +1,281 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    background: green;
+}
+section{
+    position:relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    margin-top: 50px;
+}
+header{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    color: rgb(237, 221, 41);
+    font-size: 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: rgb(9, 172, 88);
+    border-radius: 5px;
+    padding: 10 px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+}
+header .logo:hover{
+    color:  rgb(9, 172, 88);
+    background: rgb(237, 221, 41);
+    transition: 1s;
+    border-bottom: 5px solid;
+    padding: 2px;
+}
+header .navbar{
+    position: relative;
+    display: flex;
+}
+header .navbar li {
+    list-style: none;
+    margin-left: 50px;
+}
+header .navbar li a{
+    text-decoration: none;
+    color:rgb(237, 221, 41);
+    font-weight: 650;
+    padding: 10px;
+    transition: 0.3s;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+header .navbar li a:hover{
+    border-bottom: 5px solid;
+    padding: 2px;
+}
+
+.contenido{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0px;
+    margin-bottom: 50px;
+}
+.contenido{
+    position: relative;
+    max-width: 600px;
+    text-align: center;
+}
+.contenido .tituloBox{
+    font-size: 2em;
+    text-transform: uppercase;
+    color: black;
+    margin-left: -200px;
+}
+.contenido .tituloBox h2 span{
+    background: rgb(9, 172, 88);
+    color: rgb(237, 221, 41);
+    padding: 0 10px;
+    font-family: "Rubik", sans-serif;
+    font-weight:600;
+    border-radius: 20px;
+}
+.contenido .tituloBox p{
+    font-size: 0.8em;
+    line-height: 1.4;
+    color:black;
+    font-family: "Rubik", sans-serif;
+    font-weight:500;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    text-transform: none;
+}
+.contenido .tituloBox a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: rgb(9, 172, 88);
+    background: rgb(237, 221, 41);
+    padding: 10px 20px;
+    margin: left 30px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    transition: 1s;
+}
+
+.contenido .tituloBox a:hover{
+    color:rgb(237, 221, 41);
+    background: rgb(9, 172, 88);
+    transition: 0.5s;
+}
+.contenido .imgBox{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 110px;
+    margin-top: -50px;
+    margin-left: 150px;
+    z-index: -5;
+}
+.contenido .imgBox img{
+    height: 80vh;
+}
+.contenido .imgBox.img:hover{
+    height: 80vh;
+}
+.copyright{
+    position: absolute;
+    bottom: 0px;
+    left: 550px;
+    padding: 0 0px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright{
+    color: rgb(237, 221, 41);
+    text-align: center;
+    margin-left: 100px;
+}
+.RedesSociales{
+    position: absolute;
+    left: 130px;
+    bottom: 50px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px 5px;
+    list-style: none;
+}
+
+.RedesSociales li{
+    padding: 10px;
+}
+
+.RedesSociales li a{
+    color: black;
+    font-size: 40em;
+    transition: 0.3s;
+}
+
+.RedesSociales li:hover a{
+    color:rgb(237, 221, 41);
+}
+
+.circulo{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    background: rgb(5, 99, 13);
+    clip-path: circle(650px at left 800px);
+    width: 100%;
+    height: 100%;
+    z-index: -1000;
+}
+
+.Contacto .hablemos{
+    color: rgb(5, 99, 13);
+    font-family: "Rubik", sans-serif;
+    font-size: 2.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 60px 450px 100px;
+    font-weight: 300;
+}
+
+.form-group {
+    display: flex;
+    color: rgb(237, 221, 41);
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 400px 100px;
+    font-weight: bold;
+}
+
+.proyectos .projects{
+    color: rgb(237, 221, 41);
+    font-family: "Rubik", sans-serif;
+    font-size: 2.5em;
+    text-shadow: 0 0 30px goldenrod;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 60px 450px 100px;
+    font-weight: 300;
+}
+.galeria {
+    width: 100%;
+    margin: o auto;
+}
+
+.container:after{
+    content: "";
+    display: block;
+    height: 0px;
+    clear: both;
+}
+.container{
+    width: 90%;
+    margin: 0 9%;
+}
+
+.container div{
+    width: 28%;
+    height: auto;
+    display: inline;
+    float: left;
+    margin: 0% 3% 0% 0%;
+    padding: 0;
+}
+
+.container div img{
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 10px gray;
+    border: 5px solid #fff;
+}
+
+.container div img~span{
+    width: 100%;
+    display: block;
+    opacity: 0;
+    margin: 0;
+    padding: 2px 5px;
+    color: #fff;
+    background: rgb(5, 99, 13);
+    box-shadow: 0 0 10px #666;
+    text-align: center;
+}
+
+.container div img:hover+span{
+    opacity: 1;
+}
+
+.container:hover div{
+    opacity: 0.2;
+    transform: scale(0.7);
+    transition: 2s;
+}
+
+.container:hover div:hover{
+    opacity: 1;
+    transform: scale(1);
+}
